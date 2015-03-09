@@ -15,6 +15,7 @@
   a:link,
   a:visited {
     text-decoration: underline !important;
+    color: red;
   }
 
   /* Don't underline header. */
