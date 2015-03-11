@@ -42,3 +42,10 @@ crons:
     drupal:
         spec: "*/20 * * * *"
         cmd: "cd public ; drush core-cron"
+        
+runtime:
+  extensions:
+    - name: blackfire
+      configuration:
+        server_id: "e4d8aa35-acc7-49de-9142-a09bba4c638b"
+        server_token: "6cb24bff79197828b0631ecaa993be6d8c61bbc2ed390c3a7c92c1ffff48ba85"        
